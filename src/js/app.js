@@ -101,3 +101,30 @@ window.onload = function() {
     });
   });
 };
+// this code should be the bonus.
+// ${
+//   variables.twitter || variables.github || variables.linkedin || variables.instagram
+//     ? `<ul class="${variables.socialMediaPosition}">
+//         ${
+//           variables.twitter
+//             ? `<li><a href="https://twitter.com/${variables.twitter}"><i class="fab fa-twitter"></i></a></li>`
+//             : ""
+//         }
+//         ${
+//           variables.github
+//             ? `<li><a href="https://github.com/${variables.github}"><i class="fab fa-github"></i></a></li>`
+//             : ""
+//         }
+//         ${
+//           variables.linkedin
+//             ? `<li><a href="https://linkedin.com/in/${variables.linkedin}"><i class="fab fa-linkedin"></i></a></li>`
+//             : ""
+//         }
+//         ${
+//           variables.instagram
+//             ? `<li><a href="https://instagram.com/${variables.instagram}"><i class="fab fa-instagram"></i></a></li>`
+//             : ""
+//         }
+//       </ul>`
+//     : ""
+// }
